@@ -1,7 +1,7 @@
 # Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation
 By [Or Hirschorn](https://scholar.google.co.il/citations?user=GgFuT_QAAAAJ&hl=iw&oi=ao) and [Shai Avidan](https://scholar.google.co.il/citations?hl=iw&user=hpItE1QAAAAJ)
 
-This repo is the official implementation of "[Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation]()".
+This repo is the official implementation of "[Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation](https://arxiv.org/pdf/2311.17891.pdf)".
 
 ## Introduction
 
