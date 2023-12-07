@@ -7,8 +7,9 @@
 By [Or Hirschorn](https://scholar.google.co.il/citations?user=GgFuT_QAAAAJ&hl=iw&oi=ao) and [Shai Avidan](https://scholar.google.co.il/citations?hl=iw&user=hpItE1QAAAAJ)
 
 This repo is the official implementation of "[Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation](https://arxiv.org/pdf/2311.17891.pdf)".
-
-![Teaser Figure](Pose_Anything_Teaser.png)
+<p align="center">
+<img src="Pose_Anything_Teaser.png" width="384">
+</p>
 
 ## Introduction
 
