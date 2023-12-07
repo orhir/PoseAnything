@@ -1,0 +1,12 @@
+.eggs/*
+.vscode/*
+work_dirs/*
+work_dir/*
+pretrained/*
+ckpt/*
+runai_dataset/*
+*/__pycache__
+*.pyc
+data/*
+data
+output/*
