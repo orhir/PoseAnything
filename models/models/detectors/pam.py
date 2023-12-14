@@ -36,7 +36,8 @@ class PoseAnythingModel(BasePose):
     def init_backbone(self, pretrained, encoder_config):
         if 'swin' in pretrained:
             encoder_sample = builder.build_backbone(encoder_config)
-            load_pretrained(pretrained, encoder_sample, logger=None)
+            if '.pth' in pretrained:
+                load_pretrained(pretrained, encoder_sample, logger=None)
             backbone = 'swin'
         elif 'dino' in pretrained:
             if 'dinov2' in pretrained:
@@ -152,7 +153,7 @@ class PoseAnythingModel(BasePose):
 
         result.update({
             "points":
-                torch.cat((initial_proposals, output.squeeze())).cpu().numpy()
+                torch.cat((initial_proposals, output.squeeze(1))).cpu().numpy()
         })
         result.update({"sample_image_file": img_metas[0]['sample_image_file']})
 

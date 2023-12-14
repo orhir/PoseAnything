@@ -51,8 +51,14 @@ def plot_results(support_img, query_img, support_kp, support_w, query_kp, query_
                                    linewidth=6, color=c, alpha=0.6)
                 axes.add_artist(patch)
         plt.axis('off')  # command for hiding the axis.
-        plt.savefig(f'./{out_dir}/{str(name_idx)}_{str(id)}.png', bbox_inches='tight', pad_inches=0)
+        name = 'support' if id == 0 else 'query'
+        plt.savefig(f'./{out_dir}/{str(name_idx)}_{str(name)}.png', bbox_inches='tight', pad_inches=0)
+        if id == 1:
+            plt.show()
         plt.clf()
+        plt.close('all')
+
+
 def str_is_int(s):
     try:
         int(s)

@@ -52,12 +52,20 @@ Having installed these packages, run:
 python setup.py develop
 ```
 
-### Backbone Options
-To use pre-trained Swin-Transformer as used in our paper, we provide the weights, taken from this [repo](https://github.com/microsoft/Swin-Transformer/blob/main/MODELHUB.md), in the following [link](https://drive.google.com/drive/folders/1-q4mSxlNAUwDlevc3Hm5Ij0l_2OGkrcg?usp=sharing).
-These should be placed in the `./pretrained` folder.
+## Demo on Custom Images
+We provide a demo code to test our code on custom images. 
 
-We also support DINO and ResNet backbones. To use them, you can easily change the config file to use the desired backbone.
-This can be done by changing the `pretrained` field in the config file to `dinov2`, `dino` or `resnet` respectively (this will automatically load the pretrained weights from the official repo).
+***A bigger and more accurate version of the model - COMING SOON!***
+
+Download
+the [pretrained model](https://drive.google.com/file/d/1RT1Q8AMEa1kj6k9ZqrtWIKyuR4Jn4Pqc/view?usp=drive_link)
+and run:
+
+```
+python demo.py --support [path_to_support_image] --query [path_to_query_image] --config configs/demo_b.py --checkpoint [path_to_pretrained_ckpt]
+```
+***Note:*** The demo code supports any config with suitable checkpoint file. More pre-trained models can be found in the evaluation section.
+
 
 ## MP-100 Dataset
 Please follow the [official guide](https://github.com/luminxu/Pose-for-Everything/blob/main/mp100/README.md) to prepare the MP-100 dataset for training and evaluation, and organize the data structure properly.
@@ -73,14 +81,16 @@ Current version of the MP-100 dataset includes some discrepancies and filenames 
 python tools/fix_carfusion.py [path_to_CarFusion_dataset] [path_to_mp100_annotation]
 ```
 
-## Demo on Custom Images
-We provide a demo code to test our code on custom images. 
-
-Please download the pretrained model, and run:
-```
-python demo.py --support [path_to_support_image] --query [path_to_query_image] --config [path_to_config_file] --checkpoint [path_to_pretrained_ckpt]
-```
 ## Training
+
+### Backbone Options
+To use pre-trained Swin-Transformer as used in our paper, we provide the weights, taken from this [repo](https://github.com/microsoft/Swin-Transformer/blob/main/MODELHUB.md), in the following [link](https://drive.google.com/drive/folders/1-q4mSxlNAUwDlevc3Hm5Ij0l_2OGkrcg?usp=sharing).
+These should be placed in the `./pretrained` folder.
+
+We also support DINO and ResNet backbones. To use them, you can easily change the config file to use the desired backbone.
+This can be done by changing the `pretrained` field in the config file to `dinov2`, `dino` or `resnet` respectively (this will automatically load the pretrained weights from the official repo).
+
+### Training
 To train the model, run:
 ```
 python train.py --config [path_to_config_file]  --work-dir [path_to_work_dir]

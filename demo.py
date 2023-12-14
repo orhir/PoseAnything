@@ -281,7 +281,7 @@ def main():
                  vis_q_weight,
                  skeleton,
                  None,
-                 torch.tensor(outputs['points']).squeeze(),
+                 torch.tensor(outputs['points']).squeeze(0),
                  out_dir=args.outdir)
 
 
