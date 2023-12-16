@@ -57,6 +57,16 @@ We provide a demo code to test our code on custom images.
 
 ***A bigger and more accurate version of the model - COMING SOON!***
 
+### Gradio Demo
+We first require to install gradio:
+```
+pip install gradio==3.44.0
+```
+Then, Download the [pretrained model](https://drive.google.com/file/d/1RT1Q8AMEa1kj6k9ZqrtWIKyuR4Jn4Pqc/view?usp=drive_link) and run:
+```
+python app.py --checkpoint [path_to_pretrained_ckpt]
+```
+### Terminal Demo
 Download
 the [pretrained model](https://drive.google.com/file/d/1RT1Q8AMEa1kj6k9ZqrtWIKyuR4Jn4Pqc/view?usp=drive_link)
 and run:
