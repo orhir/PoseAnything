@@ -1,27 +1,13 @@
 import argparse
-import os
 import random
 
-# Copyright (c) OpenMMLab. All rights reserved.
-import os
-import sys
-from functools import partial
-from typing import Optional
-os.system('python -m pip install timm')
-os.system('python -m pip install Openmim')
-os.system('python -m mim install mmengine')
-os.system('python -m mim install "mmcv-full==1.6.2"')
-os.system('python -m mim install "mmpose==0.29.0"')
-os.system('python -m mim install "gradio==3.44.0"')
-os.system('python setup.py develop')
-
 import gradio as gr
+import matplotlib
 import numpy as np
 import torch
 from PIL import ImageDraw
 from matplotlib import pyplot as plt
 from mmcv import Config
-from mmcv.cnn import fuse_conv_bn
 from mmcv.runner import load_checkpoint
 from mmpose.core import wrap_fp16_model
 from mmpose.models import build_posenet
@@ -29,8 +15,15 @@ from torchvision import transforms
 
 from demo import Resize_Pad
 from models import *
-from tools.visualization import str_is_int
-import matplotlib
+
+# Copyright (c) OpenMMLab. All rights reserved.
+# os.system('python -m pip install timm')
+# os.system('python -m pip install Openmim')
+# os.system('python -m mim install mmengine')
+# os.system('python -m mim install "mmcv-full==1.6.2"')
+# os.system('python -m mim install "mmpose==0.29.0"')
+# os.system('python -m mim install "gradio==3.44.0"')
+# os.system('python setup.py develop')
 
 matplotlib.use('agg')
 
