@@ -7,7 +7,7 @@ import os
 import sys
 from functools import partial
 from typing import Optional
-
+os.system('python -m pip install timm')
 os.system('python -m pip install Openmim')
 os.system('python -m mim install mmengine')
 os.system('python -m mim install "mmcv-full==1.6.2"')
