@@ -1,6 +1,0 @@
-json_tricks
-numpy
-opencv-python
-pillow==6.2.2
-xtcocotools
-scipy
