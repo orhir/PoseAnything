@@ -5,7 +5,7 @@ import gradio as gr
 import matplotlib
 import numpy as np
 import torch
-from PIL import ImageDraw
+from PIL import ImageDraw, Image
 from matplotlib import pyplot as plt
 from mmcv import Config
 from mmcv.runner import load_checkpoint
@@ -291,7 +291,8 @@ with gr.Blocks() as demo:
     def set_qery(support_img):
         skeleton.clear()
         kp_src.clear()
-        return support_img
+        support_img = support_img.resize((128, 128), Image.Resampling.LANCZOS)
+        return support_img, support_img
 
 
     support_img.select(get_select_coords,
@@ -299,7 +300,7 @@ with gr.Blocks() as demo:
                        [support_img, posed_support])
     support_img.upload(set_qery,
                        inputs=support_img,
-                       outputs=posed_support)
+                       outputs=[support_img, posed_support])
     posed_support.select(get_limbs,
                          posed_support,
                          posed_support)
@@ -311,7 +312,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Pose Anything Demo')
     parser.add_argument('--checkpoint',
                         help='checkpoint path',
-                        default='checkpoints/demo.pth')
+                        default='https://github.com/orhir/PoseAnything/releases/download/1.0.0/demo_b.pth')
     args = parser.parse_args()
     checkpoint_path = args.checkpoint
     demo.launch()

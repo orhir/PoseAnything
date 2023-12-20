@@ -3,13 +3,20 @@
 <a href="https://arxiv.org/abs/2311.17891"><img src="https://img.shields.io/badge/arXiv-2311.17891-b31b1b.svg"></a>
 <a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-anything-a-graph-based-approach-for/2d-pose-estimation-on-mp-100)](https://paperswithcode.com/sota/2d-pose-estimation-on-mp-100?p=pose-anything-a-graph-based-approach-for)
+[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything)
 
 By [Or Hirschorn](https://scholar.google.co.il/citations?user=GgFuT_QAAAAJ&hl=iw&oi=ao) and [Shai Avidan](https://scholar.google.co.il/citations?hl=iw&user=hpItE1QAAAAJ)
 
 This repo is the official implementation of "[Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation](https://arxiv.org/pdf/2311.17891.pdf)".
+
 <p align="center">
 <img src="Pose_Anything_Teaser.png" width="384">
 </p>
+
+## 🔔 News
+
+- **`20 December 2023`** Demo is online on [OpenXLab](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything).
+- **`7 December 2023`** Code release of Pose Anything.
 
 ## Introduction
 
@@ -53,6 +60,11 @@ python setup.py develop
 ```
 
 ## Demo on Custom Images
+<a href="https://openxlab.org.cn/apps/detail/orhir/Pose-Anything">
+<i>TRY IT NOW on OpenXLab</i>
+</a>
+
+
 We provide a demo code to test our code on custom images. 
 
 ***A bigger and more accurate version of the model - COMING SOON!***
@@ -114,7 +126,7 @@ Here we provide the evaluation results of our pretrained models on MP-100 datase
 ### 1-Shot Models
 | Setting |                                                                       split 1                                                                       |                                                                       split 2                                                                       |                                                                       split 3                                                                       |                                                                       split 4                                                                       |                                                                       split 5                                                                       |
 |:-------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|
-|  Tiny   |                                                                        91.06                                                                        |                                                                        88024                                                                        |                                                                        86.09                                                                        |                                                                        86.17                                                                        |                                                                        85.78                                                                        |
+|  Tiny   |                                                                        91.06                                                                        |                                                                        88.24                                                                        |                                                                        86.09                                                                        |                                                                        86.17                                                                        |                                                                        85.78                                                                        |
 |         |   [link](https://drive.google.com/file/d/1GubmkVkqybs-eD4hiRkgBzkUVGE_rIFX/view?usp=drive_link) / [config](configs/1shots/graph_split1_config.py)   |   [link](https://drive.google.com/file/d/1EEekDF3xV_wJOVk7sCQWUA8ygUKzEm2l/view?usp=drive_link) / [config](configs/1shots/graph_split2_config.py)   |   [link](https://drive.google.com/file/d/1FuwpNBdPI3mfSovta2fDGKoqJynEXPZQ/view?usp=drive_link) / [config](configs/1shots/graph_split3_config.py)   |   [link](https://drive.google.com/file/d/1_SSqSANuZlbC0utzIfzvZihAW9clefcR/view?usp=drive_link) / [config](configs/1shots/graph_split4_config.py)   |   [link](https://drive.google.com/file/d/1nUHr07W5F55u-FKQEPFq_CECgWZOKKLF/view?usp=drive_link) / [config](configs/1shots/graph_split5_config.py)   |
 |  Small  |                                                                        93.66                                                                        |                                                                        90.42                                                                        |                                                                        89.79                                                                        |                                                                        88.68                                                                        |                                                                        89.61                                                                        |
 |         | [link](https://drive.google.com/file/d/1RT1Q8AMEa1kj6k9ZqrtWIKyuR4Jn4Pqc/view?usp=drive_link) / [config](configs/1shot-swin/graph_split1_config.py) | [link](https://drive.google.com/file/d/1BT5b8MlnkflcdhTFiBROIQR3HccLsPQd/view?usp=drive_link) / [config](configs/1shot-swin/graph_split2_config.py) | [link](https://drive.google.com/file/d/1Z64cw_1CSDGObabSAWKnMK0BA_bqDHxn/view?usp=drive_link) / [config](configs/1shot-swin/graph_split3_config.py) | [link](https://drive.google.com/file/d/1vf82S8LAjIzpuBcbEoDCa26cR8DqNriy/view?usp=drive_link) / [config](configs/1shot-swin/graph_split4_config.py) | [link](https://drive.google.com/file/d/14FNx0JNbkS2CvXQMiuMU_kMZKFGO2rDV/view?usp=drive_link) / [config](configs/1shot-swin/graph_split5_config.py) |

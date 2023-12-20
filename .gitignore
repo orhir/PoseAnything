@@ -11,3 +11,4 @@ data/*
 data
 output/*
 .idea/*
+pose_anything.egg-info/*
