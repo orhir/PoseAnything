@@ -2,8 +2,9 @@
 <a href="https://orhir.github.io/pose-anything/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/abs/2311.17891"><img src="https://img.shields.io/badge/arXiv-2311.17891-b31b1b.svg"></a>
 <a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-anything-a-graph-based-approach-for/2d-pose-estimation-on-mp-100)](https://paperswithcode.com/sota/2d-pose-estimation-on-mp-100?p=pose-anything-a-graph-based-approach-for)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/orhir/PoseAnything)
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-anything-a-graph-based-approach-for/2d-pose-estimation-on-mp-100)](https://paperswithcode.com/sota/2d-pose-estimation-on-mp-100?p=pose-anything-a-graph-based-approach-for)
 
 By [Or Hirschorn](https://scholar.google.co.il/citations?user=GgFuT_QAAAAJ&hl=iw&oi=ao) and [Shai Avidan](https://scholar.google.co.il/citations?hl=iw&user=hpItE1QAAAAJ)
 
@@ -15,7 +16,7 @@ This repo is the official implementation of "[Pose Anything: A Graph-Based Appro
 
 ## 🔔 News
 
-- **`20 December 2023`** Demo is online on [OpenXLab](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything).
+- **`20 December 2023`** Demo is online on [Huggingface](https://huggingface.co/spaces/orhir/PoseAnything) and [OpenXLab](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything).
 - **`7 December 2023`** Code release of Pose Anything.
 
 ## Introduction
