@@ -61,14 +61,10 @@ python setup.py develop
 ```
 
 ## Demo on Custom Images
-<a href="https://openxlab.org.cn/apps/detail/orhir/Pose-Anything">
-<i>TRY IT NOW on OpenXLab</i>
-</a>
+<i>TRY IT NOW ON:</i> <a href="https://huggingface.co/spaces/orhir/PoseAnything">HuggingFace</a> / <a href="https://openxlab.org.cn/apps/detail/orhir/Pose-Anything">OpenXLab</a>
 
 
 We provide a demo code to test our code on custom images. 
-
-***A bigger and more accurate version of the model - COMING SOON!***
 
 ### Gradio Demo
 We first require to install gradio:
