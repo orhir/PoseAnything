@@ -77,11 +77,11 @@ model = dict(
         share_kpt_branch=False,
         num_decoder_layer=3,
         with_heatmap_loss=True,
-        
         heatmap_loss_weight=2.0,
         support_order_dropout=-1,
         positional_encoding=dict(
             type='SinePositionalEncoding', num_feats=128, normalize=True)),
+
     # training and testing settings
     train_cfg=dict(),
     test_cfg=dict(
