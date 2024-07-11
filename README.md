@@ -19,7 +19,7 @@ This repo is the official implementation of "[A Graph-Based Approach for Categor
 - **`10 July 2024`** Uploaded new annotations - fix a small bug of DeepFashion skeletons.
 - **`2 Feburary 2024`** Uploaded new weights - smaller models with stronger performance.
 - **`20 December 2023`** Demo is online on [Huggingface](https://huggingface.co/spaces/orhir/PoseAnything) and [OpenXLab](https://openxlab.org.cn/apps/detail/orhir/Pose-Anything).
-- **`7 December 2023`** Code release of Pose Anything.
+- **`7 December 2023`** Official code release.
 
 ## Introduction
 
