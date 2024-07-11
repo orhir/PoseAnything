@@ -88,7 +88,7 @@ python demo.py --support [path_to_support_image] --query [path_to_query_image] -
 ***Note:*** The demo code supports any config with suitable checkpoint file. More pre-trained models can be found in the evaluation section.
 
 
-## MP-100 Dataset
+## Updated MP-100 Dataset
 Please follow the [official guide](https://github.com/luminxu/Pose-for-Everything/blob/main/mp100/README.md) to prepare the MP-100 dataset for training and evaluation, and organize the data structure properly.
 
 We provide an updated annotation file, which includes skeleton definitions, in the following [link](https://drive.google.com/drive/folders/1uRyGB-P5Tc_6TmAZ6RnOi0SWjGq9b28T?usp=sharing).
