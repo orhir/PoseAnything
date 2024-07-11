@@ -1,4 +1,4 @@
-# Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation [ECCV 2024]
+# A Graph-Based Approach for Category-Agnostic Pose Estimation [ECCV 2024]
 <a href="https://orhir.github.io/pose-anything/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/abs/2311.17891"><img src="https://img.shields.io/badge/arXiv-2311.17891-b31b1b.svg"></a>
 <a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
@@ -8,7 +8,7 @@
 
 By [Or Hirschorn](https://scholar.google.co.il/citations?user=GgFuT_QAAAAJ&hl=iw&oi=ao) and [Shai Avidan](https://scholar.google.co.il/citations?hl=iw&user=hpItE1QAAAAJ)
 
-This repo is the official implementation of "[Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation](https://arxiv.org/pdf/2311.17891.pdf)".
+This repo is the official implementation of "[A Graph-Based Approach for Category-Agnostic Pose Estimation](https://arxiv.org/pdf/2311.17891.pdf)".
 
 <p align="center">
 <img src="Pose_Anything_Teaser.png" width="384">
