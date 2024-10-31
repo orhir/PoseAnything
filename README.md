@@ -29,12 +29,13 @@ We present a novel approach to CAPE that leverages the inherent geometrical rela
 If you find this useful, please cite this work as follows:
 ```bibtex
 @misc{hirschorn2023pose,
-      title={Pose Anything: A Graph-Based Approach for Category-Agnostic Pose Estimation},
+      title={A Graph-Based Approach for Category-Agnostic Pose Estimation}, 
       author={Or Hirschorn and Shai Avidan},
-      year={2023},
+      year={2024},
       eprint={2311.17891},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2311.17891}, 
 }
 ```
 
