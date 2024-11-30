@@ -1,3 +1,6 @@
+:new: *Please check out [EdgeCape](https://github.com/orhir/EdgeCape), our more recent effort in the same line of work.*
+
+
 # A Graph-Based Approach for Category-Agnostic Pose Estimation [ECCV 2024]
 <a href="https://orhir.github.io/pose-anything/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/abs/2311.17891"><img src="https://img.shields.io/badge/arXiv-2311.17891-b31b1b.svg"></a>
